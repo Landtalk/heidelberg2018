@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://heidelberg2018.kr/sitemap.xml
