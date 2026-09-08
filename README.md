@@ -10,7 +10,9 @@
 - `favicon.svg`: 기본 파비콘
 - `robots.txt`: 검색엔진 크롤링 규칙
 - `sitemap.xml`: 공식 도메인 사이트맵
-- `CNAME.example`: 커스텀 도메인 연결 시 사용할 예시 파일
+- `CNAME`: GitHub Pages 커스텀 도메인
+- `naver24a67976eae26a9f588fa79f9734656e.html`: 네이버 사이트 소유확인 파일
+- `assets/projects/`: 프로젝트 스크린샷 교체 위치와 규칙
 
 ## 서비스 및 문의 정보
 
@@ -30,10 +32,9 @@
 
 ## 커스텀 도메인 연결
 
-1. `CNAME.example` 파일명을 `CNAME`으로 변경합니다.
-2. 도메인 DNS에 GitHub Pages가 안내하는 레코드를 설정합니다.
-3. GitHub Pages 설정의 Custom domain에 `heidelberg2018.kr`를 입력합니다.
-4. DNS 적용 후 **Enforce HTTPS**를 켭니다.
-5. `www` 주소도 사용할 경우 `www` CNAME을 GitHub 사용자 도메인으로 연결하고, 주 도메인 정책을 정합니다.
+1. 도메인 DNS에 GitHub Pages가 안내하는 레코드를 설정합니다.
+2. GitHub Pages 설정의 Custom domain에 `heidelberg2018.kr`를 입력합니다.
+3. DNS 적용 후 **Enforce HTTPS**를 켭니다.
+4. `www` 주소도 사용할 경우 `www` CNAME을 GitHub 사용자 도메인으로 연결하고, 주 도메인 정책을 정합니다.
 
 배포 후 `https://heidelberg2018.kr/robots.txt`와 `https://heidelberg2018.kr/sitemap.xml`이 열리는지 확인하세요.
